@@ -70,7 +70,7 @@ const Signin = () => {
     <>
       <Formik initialValues={{
         email: "",
-        password: "India5634",
+        password: "",
       }}
         onSubmit={(value) => {
           console.log(value)

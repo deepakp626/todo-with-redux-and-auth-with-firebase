@@ -118,11 +118,11 @@ const SignUp = () => {
   return (
     <>
       <Formik initialValues={{
-        firstName: "deepak",
-        lastName: "prajapat",
+        firstName: "",
+        lastName: "",
         email: "",
-        password: "India5634",
-        confirmPassword: "India5634",
+        password: "",
+        confirmPassword: "",
       }}
         onSubmit={(values) => {
           console.log(values)
